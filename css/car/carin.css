@@ -1,0 +1,44 @@
+﻿@import url('carinanimation.css');
+
+.carshow > .carholderouter {
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -o-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    height: auto;
+    left: 0;
+    position: absolute;
+    top: 300px;
+    width: auto;
+    z-index: 1;
+}
+
+    .carshow > .carholderouter > .carholderinner > .wheelpointer {
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-delay: 1s;
+        animation-delay: 1s;
+        -webkit-transform: scale(0.0);
+        -moz-transform: scale(0.0);
+        -o-transform: scale(0.0);
+        transform: scale(0.0);
+    }
+
+.carshow > .iconholder > .iconouter {
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -o-transform: translateY(100%);
+    transform: translateY(100%);
+}
+
+    .carshow > .iconholder > .iconouter > .iconinner {
+        opacity: 0;
+    }
+
+.carshow > .iconholder > .plus > .iconinner {
+    opacity: 0;
+}
+
+    .carshow > .iconholder > .car > .iconinner {
+        opacity: 0;
+    }

@@ -1,0 +1,59 @@
+﻿@import url('caroutanimation.css');
+
+.carhide > .carholderouter {
+    -webkit-animation-delay: 0.5s;
+    -moz-animation-delay: 0.5s;
+    -o-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -o-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -o-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    height: auto;
+    left: 0;
+    position: absolute;
+    top: 300px;
+    width: auto;
+    z-index: 1;
+}
+
+    .carhide > .carholderouter > .carholderinner > .wheel {
+        -webkit-animation-delay: 0.5s;
+        -moz-animation-delay: 0.5s;
+        -o-animation-delay: 0.5s;
+        animation-delay: 0.5s;
+    }
+
+    .carhide > .carholderouter > .carholderinner > .wheelpointer {
+        -webkit-animation-delay: 0.25s;
+        -moz-animation-delay: 0.25s;
+        -o-animation-delay: 0.25s;
+        animation-delay: 0.25s;
+        -webkit-transform: scale(1.0);
+        -moz-transform: scale(1.0);
+        -o-transform: scale(1.0);
+        transform: scale(1.0);
+    }
+
+.carhide > .iconholder > .iconouter {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+
+    .carhide > .iconholder > .iconouter > .iconinner {
+        opacity: 1;
+    }
+
+.carhide > .iconholder > .plus > .iconinner {
+    opacity: 1;
+}
+
+.carhide > .iconholder > .car > .iconinner {
+    opacity: 1;
+}

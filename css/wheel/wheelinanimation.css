@@ -1,0 +1,43 @@
+﻿@import url('../keyframesin.css');
+
+.wheelshow .fadein {
+    -webkit-animation: fadein 0.5s forwards ease-in-out;
+    -moz-animation: fadein 0.5s forwards ease-in-out;
+    -o-animation: fadein 0.5s forwards ease-in-out;
+    animation: fadein 0.5s forwards ease-in-out;
+}
+
+.wheelshow .rotateccw {
+    -webkit-animation: rotateccw 0.5s forwards ease-in-out;
+    -moz-animation: rotateccw 0.5s forwards ease-in-out;
+    -o-animation: rotateccw 0.5s forwards ease-in-out;
+    animation: rotateccw 0.5s forwards ease-in-out;
+}
+
+.wheelshow .slideinfrombottom {
+    -webkit-animation: slideinfrombottom 0.5s forwards ease-in-out;
+    -moz-animation: slideinfrombottom 0.5s forwards ease-in-out;
+    -o-animation: slideinfrombottom 0.5s forwards ease-in-out;
+    animation: slideinfrombottom 0.5s forwards ease-in-out;
+}
+
+.wheelshow .slideinfromleft {
+    -webkit-animation: slideinfromleft 0.5s forwards ease-in-out;
+    -moz-animation: slideinfromleft 0.5s forwards ease-in-out;
+    -o-animation: slideinfromleft 0.5s forwards ease-in-out;
+    animation: slideinfromleft 0.5s forwards ease-in-out;
+}
+
+.wheelshow .slideinfromright {
+    -webkit-animation: slideinfromright 0.5s forwards ease-in-out;
+    -moz-animation: slideinfromright 0.5s forwards ease-in-out;
+    -o-animation: slideinfromright 0.5s forwards ease-in-out;
+    animation: slideinfromright 0.5s forwards ease-in-out;
+}
+
+.wheelshow .slideinfromtop {
+    -webkit-animation: slideinfromtop 0.5s forwards ease-in-out;
+    -moz-animation: slideinfromtop 0.5s forwards ease-in-out;
+    -o-animation: slideinfromtop 0.5s forwards ease-in-out;
+    animation: slideinfromtop 0.5s forwards ease-in-out;
+}

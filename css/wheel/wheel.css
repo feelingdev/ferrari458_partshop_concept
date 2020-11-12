@@ -1,0 +1,407 @@
+﻿.wheelpage {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+    .wheelpage > .wheelpageinner {
+        border-radius: 50px;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+    }
+
+        .wheelpage > .wheelpageinner > .backbtnouter {
+            background-color: rgba(255,255,255,0);
+            border-radius: 40px;
+            cursor: pointer;
+            height: auto;
+            left: 20px;
+            overflow: hidden;
+            position: absolute;
+            top: 50px;
+            -webkit-transition: 0.3s;
+            -moz-transition: 0.3s;
+            -o-transition: 0.3s;
+            transition: 0.3s;
+            width: auto;
+            z-index: 2;
+        }
+
+            .wheelpage > .wheelpageinner > .backbtnouter:hover {
+                background-color: rgba(255,255,255,0.5);
+            }
+
+            .wheelpage > .wheelpageinner > .backbtnouter:active {
+                background-color: rgba(255,255,255,1);
+            }
+
+            .wheelpage > .wheelpageinner > .backbtnouter > div {
+                background-color: rgba(255,255,255,0);
+                background-image: url(../../images/icons/angle-left-solid.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 40px;
+                position: relative;
+                width: 40px;
+            }
+
+        .wheelpage > .wheelpageinner > .accesories {
+            font-size: 10pt;
+            height: auto;
+            left: 0;
+            position: absolute;
+            text-align: center;
+            top: 60px;
+            width: 100%;
+            z-index: 1;
+        }
+
+            .wheelpage > .wheelpageinner > .accesories > div {
+                height: auto;
+                position: relative;
+                white-space: nowrap;
+                width: 100%;
+            }
+
+                .wheelpage > .wheelpageinner > .accesories > div > span {
+                    display: inline-block;
+                    margin-right: 15px;
+                    position: relative;
+                    vertical-align: middle;
+                }
+
+                .wheelpage > .wheelpageinner > .accesories > div > div {
+                    background-color: #FFF;
+                    background-image: url(../../images/icons/angle-down-solid.png);
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: 20px 20px;
+                    border-radius: 25px;
+                    display: inline-block;
+                    height: 25px;
+                    position: relative;
+                    vertical-align: middle;
+                    width: 25px;
+                }
+
+        .wheelpage > .wheelpageinner > .wheelholderouter {
+            -webkit-animation-duration: 1s;
+            -moz-animation-duration: 1s;
+            -o-animation-duration: 1s;
+            animation-duration: 1s;
+            height: auto;
+            left: 0;
+            position: absolute;
+            text-align: center;
+            top: 160px;
+            width: 100%;
+            z-index: 2;
+        }
+
+            .wheelpage > .wheelpageinner > .wheelholderouter > .wheelholderinner {
+                -webkit-animation-duration: 1s;
+                -moz-animation-duration: 1s;
+                -o-animation-duration: 1s;
+                animation-duration: 1s;
+                height: auto;
+                position: relative;
+                -webkit-transform: scale(-1.5, 1.5);
+                -moz-transform: scale(-1.5, 1.5);
+                transform: scale(-1.5, 1.5);
+                -o-transform: scale(-1.5, 1.5);
+                width: auto;
+            }
+
+                .wheelpage > .wheelpageinner > .wheelholderouter > .wheelholderinner > .wheel {
+                    -webkit-animation-duration: 1s;
+                    -moz-animation-duration: 1s;
+                    -o-animation-duration: 1s;
+                    animation-duration: 1s;
+                    position: relative;
+                    -webkit-transform: rotate(180deg);
+                    -moz-transform: rotate(180deg);
+                    -o-transform: rotate(180deg);
+                    transform: rotate(180deg);
+                    z-index: 0;
+                }
+
+                .wheelpage > .wheelpageinner > .wheelholderouter > .wheelholderinner > .shine {
+                    left: 50%;
+                    position: absolute;
+                    top: 50%;
+                    -webkit-transform: translate(-50%,-50%);
+                    -moz-transform: translate(-50%,-50%);
+                    -o-transform: translate(-50%,-50%);
+                    transform: translate(-50%,-50%);
+                    z-index: 1;
+                }
+
+        .wheelpage > .wheelpageinner > .paging {
+            height: 20px;
+            margin: auto;
+            position: absolute;
+            text-align: center;
+            top: 350px;
+            width: 100%;
+            z-index: 0;
+        }
+
+            .wheelpage > .wheelpageinner > .paging > div {
+                display: block;
+                height: auto;
+                position: relative;
+                white-space: nowrap;
+                width: auto;
+            }
+
+                .wheelpage > .wheelpageinner > .paging > div > .pagedot {
+                    background-color: #AAA;
+                    border-radius: 5px;
+                    display: inline-block;
+                    height: 5px;
+                    margin: 0 2px;
+                    position: relative;
+                    width: 5px;
+                    vertical-align: top;
+                }
+
+                .wheelpage > .wheelpageinner > .paging > div > .selected {
+                    background-color: #0172ff;
+                    height: 5px;
+                    width: 15px;
+                }
+
+        .wheelpage > .wheelpageinner > .itemlabelholder {
+            position: absolute;
+            text-align: center;
+            top: 390px;
+            width: 100%;
+        }
+
+            .wheelpage > .wheelpageinner > .itemlabelholder > div {
+                height: auto;
+                position: relative;
+                width: auto;
+            }
+
+                .wheelpage > .wheelpageinner > .itemlabelholder > div > .itemname {
+                    display: block;
+                    font-size: 18pt;
+                    font-weight: bold;
+                }
+
+                .wheelpage > .wheelpageinner > .itemlabelholder > div > .itemdescription {
+                    display: block;
+                    font-size: 9pt;
+                }
+
+        .wheelpage > .wheelpageinner > .footer {
+            background-color: #fcfdfd;
+            border-radius: 30px;
+            bottom: 0;
+            height: 120px;
+            left: 0;
+            position: absolute;
+            width: 100%;
+        }
+
+            .wheelpage > .wheelpageinner > .footer > .grabber {
+                border-radius: 5px;
+                display: block;
+                height: 5px;
+                margin: auto;
+                position: absolute;
+                text-align: center;
+                top: -15px;
+                width: 100%;
+            }
+
+                .wheelpage > .wheelpageinner > .footer > .grabber > div {
+                    background-color: #FFF;
+                    border-radius: 5px;
+                    display: inline-block;
+                    height: 5px;
+                    position: relative;
+                    width: 50px;
+                }
+
+            .wheelpage > .wheelpageinner > .footer > .priceholder {
+                left: 40px;
+                height: auto;
+                position: absolute;
+                top: 30px;
+                width: auto;
+                z-index: 1;
+            }
+
+                .wheelpage > .wheelpageinner > .footer > .priceholder > div {
+                    height: auto;
+                    position: relative;
+                    width: auto;
+                }
+
+                    .wheelpage > .wheelpageinner > .footer > .priceholder > div > .label {
+                        display: block;
+                        font-size: 8pt;
+                        margin-bottom: 5px;
+                    }
+
+                    .wheelpage > .wheelpageinner > .footer > .priceholder > div > .price {
+                        display: block;
+                        font-size: 20pt;
+                        font-weight: bold;
+                    }
+            .wheelpage > .wheelpageinner > .footer > .quantityholder {
+                font-size: 8pt;
+                height: auto;
+                position: absolute;
+                text-align: center;
+                top: 40px;
+                width: 100%;
+                z-index: 0;
+            }
+
+                .wheelpage > .wheelpageinner > .footer > .quantityholder > div {
+                    background-color: #eff3f7;
+                    border-radius: 30px;
+                    display: inline-block;
+                    height: auto;
+                    padding: 5px 15px;
+                    position: relative;
+                    width: auto;
+                }
+
+                    .wheelpage > .wheelpageinner > .footer > .quantityholder > div > .quantity {
+                        color: #0172ff;
+                        font-weight: bold;
+                    }
+
+            .wheelpage > .wheelpageinner > .footer > .addbtnholder {
+                height: auto;
+                position: absolute;
+                right: 40px;
+                top: 30px;
+                width: auto;
+            }
+
+                .wheelpage > .wheelpageinner > .footer > .addbtnholder > button {
+                    -webkit-appearance: none;
+                    background-color: #0172ff;
+                    border: none;
+                    border-radius: 30px;
+                    box-shadow: 0 5px 10px rgba(1,114,255, 0.2);
+                    color: #FFF;
+                    height: 40px;
+                    position: relative;
+                    width: 90px;
+                }
+
+        .wheelpage > .wheelpageinner > .circle {
+            background-color: #fcfdfd;
+            border-radius: 375px;
+            height: 375px;
+            right: 0;
+            top: 0;
+            -webkit-transform: translate(60%, -50%);
+            -moz-transform: translate(60%, -50%);
+            -o-transform: translate(60%, -50%);
+            transform: translate(60%, -50%);
+            width: 375px;
+            z-index: 0;
+        }
+
+    .wheelpage > .detailsholder {
+        height: auto;
+        left: 40px;
+        position: absolute;
+        top: 480px;
+        white-space: nowrap;
+        width: auto;
+    }
+
+        .wheelpage > .detailsholder > .detailitem {
+            display: inline-block;
+            height: 120px;
+            margin: 0 5px;
+            position: relative;
+            vertical-align: top;
+            width: 120px;
+        }
+
+            .wheelpage > .detailsholder > .detailitem > div {
+                background-color: #FFF;
+                border-radius: 20px;
+                box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+                height: 100%;
+                position: relative;
+                width: 100%;
+            }
+
+                .wheelpage > .detailsholder > .detailitem > div > .icon {
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    height: 50px;
+                    left: 50%;
+                    position: absolute;
+                    top: 40%;
+                    -webkit-transform: translate(-50%,-50%);
+                    -moz-transform: translate(-50%,-50%);
+                    -o-transform: translate(-50%,-50%);
+                    transform: translate(-50%,-50%);
+                    width: 50px;
+                }
+
+                .wheelpage > .detailsholder > .detailitem > div > .viewmore {
+                    height: 25px;
+                    width: 25px;
+                }
+
+                .wheelpage > .detailsholder > .detailitem > div > .property {
+                    bottom: 20px;
+                    font-size: 8pt;
+                    font-weight: bold;
+                    left: 15px;
+                    position: absolute;
+                }
+
+                .wheelpage > .detailsholder > .detailitem > div > .value {
+                    bottom: 20px;
+                    font-size: 8pt;
+                    position: absolute;
+                    right: 15px;
+                }
+
+        .wheelpage > .detailsholder > .front {
+            -webkit-animation-delay: 0.5s;
+            -moz-animation-delay: 0.5s;
+            -o-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+        }
+
+            .wheelpage > .detailsholder > .front > div {
+                -webkit-animation-delay: 0.5s;
+                -moz-animation-delay: 0.5s;
+                -o-animation-delay: 0.5s;
+                animation-delay: 0.5s;
+            }
+
+        .wheelpage > .detailsholder > .rear {
+            -webkit-animation-delay: 0.25s;
+            -moz-animation-delay: 0.25s;
+            -o-animation-delay: 0.25s;
+            animation-delay: 0.25s;
+        }
+
+            .wheelpage > .detailsholder > .rear > div {
+                -webkit-animation-delay: 0.25s;
+                -moz-animation-delay: 0.25s;
+                -o-animation-delay: 0.25s;
+                animation-delay: 0.25s;
+            }

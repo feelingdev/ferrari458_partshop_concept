@@ -1,0 +1,36 @@
+﻿@import url('../keyframesin.css');
+
+.carshow .fadein {
+    -webkit-animation: fadein 0.5s forwards ease-in-out;
+    -moz-animation: fadein 0.5s forwards ease-in-out;
+    -o-animation: fadein 0.5s forwards ease-in-out;
+    animation: fadein 0.5s forwards ease-in-out;
+}
+
+.carshow .rotateccwsemi {
+    -webkit-animation: rotateccwsemi 0.5s forwards ease-in-out;
+    -moz-animation: rotateccwsemi 0.5s forwards ease-in-out;
+    -o-animation: rotateccwsemi 0.5s forwards ease-in-out;
+    animation: rotateccwsemi 0.5s forwards ease-in-out;
+}
+
+.carshow .scalein {
+    -webkit-animation: scalein 0.5s forwards ease-in-out;
+    -moz-animation: scalein 0.5s forwards ease-in-out;
+    -o-animation: scalein 0.5s forwards ease-in-out;
+    animation: scalein 0.5s forwards ease-in-out;
+}
+
+.carshow .slideinfrombottom {
+    -webkit-animation: slideinfrombottom 0.5s forwards ease-in-out;
+    -moz-animation: slideinfrombottom 0.5s forwards ease-in-out;
+    -o-animation: slideinfrombottom 0.5s forwards ease-in-out;
+    animation: slideinfrombottom 0.5s forwards ease-in-out;
+}
+
+.carshow .slideinfromright {
+    -webkit-animation: slideinfromright 0.5s forwards ease-in-out;
+    -moz-animation: slideinfromright 0.5s forwards ease-in-out;
+    -o-animation: slideinfromright 0.5s forwards ease-in-out;
+    animation: slideinfromright 0.5s forwards ease-in-out;
+}

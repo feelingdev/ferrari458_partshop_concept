@@ -1,0 +1,23 @@
+﻿@import url('wheelinanimation.css');
+
+.wheelshow > .detailsholder > .front {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+    .wheelshow > .detailsholder > .front > div {
+        opacity: 0;
+    }
+
+.wheelshow > .detailsholder > .rear {
+    -webkit-transform: translateX(100%);
+    -moz-transform: translateX(100%);
+    -o-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+    .wheelshow > .detailsholder > .rear > div {
+        opacity: 0;
+    }

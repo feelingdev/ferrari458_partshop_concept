@@ -1,0 +1,36 @@
+﻿@import url('../keyframesout.css');
+
+.carhide .fadeout {
+    -webkit-animation: fadeout 0.5s forwards ease-in-out;
+    -moz-animation: fadeout 0.5s forwards ease-in-out;
+    -o-animation: fadeout 0.5s forwards ease-in-out;
+    animation: fadeout 0.5s forwards ease-in-out;
+}
+
+.carhide .rotateccw {
+    -webkit-animation: rotateccw 0.5s forwards ease-in-out;
+    -moz-animation: rotateccw 0.5s forwards ease-in-out;
+    -o-animation: rotateccw 0.5s forwards ease-in-out;
+    animation: rotateccw 0.5s forwards ease-in-out;
+}
+
+.carhide .scaleout {
+    -webkit-animation: scaleout 0.5s forwards ease-in-out;
+    -moz-animation: scaleout 0.5s forwards ease-in-out;
+    -o-animation: scaleout 0.5s forwards ease-in-out;
+    animation: scaleout 0.5s forwards ease-in-out;
+}
+
+.carhide .slideouttobottom {
+    -webkit-animation: slideouttobottom 0.5s forwards ease-in-out;
+    -moz-animation: slideouttobottom 0.5s forwards ease-in-out;
+    -o-animation: slideouttobottom 0.5s forwards ease-in-out;
+    animation: slideouttobottom 0.5s forwards ease-in-out;
+}
+
+.carhide .slideouttoleft {
+    -webkit-animation: slideouttoleft 0.5s forwards ease-in-out;
+    -moz-animation: slideouttoleft 0.5s forwards ease-in-out;
+    -o-animation: slideouttoleft 0.5s forwards ease-in-out;
+    animation: slideouttoleft 0.5s forwards ease-in-out;
+}

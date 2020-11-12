@@ -1,0 +1,43 @@
+﻿@import url('../keyframesout.css');
+
+.wheelhide .fadeout {
+    -webkit-animation: fadeout 0.5s forwards ease-in-out;
+    -moz-animation: fadeout 0.5s forwards ease-in-out;
+    -o-animation: fadeout 0.5s forwards ease-in-out;
+    animation: fadeout 0.5s forwards ease-in-out;
+}
+
+.wheelhide .rotatecw {
+    -webkit-animation: rotatecw 0.5s forwards ease-in-out;
+    -moz-animation: rotatecw 0.5s forwards ease-in-out;
+    -o-animation: rotatecw 0.5s forwards ease-in-out;
+    animation: rotatecw 0.5s forwards ease-in-out;
+}
+
+.wheelhide .slideouttobottom {
+    -webkit-animation: slideouttobottom 0.5s forwards ease-in-out;
+    -moz-animation: slideouttobottom 0.5s forwards ease-in-out;
+    -o-animation: slideouttobottom 0.5s forwards ease-in-out;
+    animation: slideouttobottom 0.5s forwards ease-in-out;
+}
+
+.wheelhide .slideouttoleft {
+    -webkit-animation: slideouttoleft 0.5s forwards ease-in-out;
+    -moz-animation: slideouttoleft 0.5s forwards ease-in-out;
+    -o-animation: slideouttoleft 0.5s forwards ease-in-out;
+    animation: slideouttoleft 0.5s forwards ease-in-out;
+}
+
+.wheelhide .slideouttoright {
+    -webkit-animation: slideouttoright 0.5s forwards ease-in-out;
+    -moz-animation: slideouttoright 0.5s forwards ease-in-out;
+    -o-animation: slideouttoright 0.5s forwards ease-in-out;
+    animation: slideouttoright 0.5s forwards ease-in-out;
+}
+
+.wheelhide .slideouttotop {
+    -webkit-animation: slideouttotop 0.5s forwards ease-in-out;
+    -moz-animation: slideouttotop 0.5s forwards ease-in-out;
+    -o-animation: slideouttotop 0.5s forwards ease-in-out;
+    animation: slideouttotop 0.5s forwards ease-in-out;
+}
